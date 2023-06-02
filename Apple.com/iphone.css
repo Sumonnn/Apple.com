@@ -1,0 +1,587 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    /* overflow-x: hidden; */
+    /* overflow: auto; */
+}
+#main{
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+}
+#navbar{
+    width: 100%;    
+    height: 45px;
+    background-color: rgba(32, 33, 33, 0.950);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    position: fixed;
+    z-index: 1;
+    gap: 38px;
+    font-family: "gilroy";
+    font-size: 18px;
+    color: rgb(204, 203, 203);
+}
+#navbar a{
+    color: rgb(182, 180, 179);
+    font-size: 13px;
+    font-family: "gilroy";
+    font-weight: 600;
+}
+#navbar2{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-family: "gilroy";
+    font-weight: 500;
+    font-size: 14px;
+    padding-bottom:15px ;
+}
+#photo1{
+    width: 100%;
+    height: 87%;
+    background-image: url(https://www.apple.com/v/home/az/images/heroes/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_largetall.jpg);
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+    position: relative;
+    cursor: pointer;
+    /* background-color: blue; */
+}
+#photo1 .text{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    font-family: "gilroy";
+    /* font-weight: 500; */
+    top: 45px;
+    transform: translate(-50%,0%);
+}
+#photo1 .text h1{
+    font-size: 58px;
+    padding: 5px 0px;
+}
+#photo1 .text h2{
+    font-weight: 500;
+    font-size: 28px;
+    padding-bottom: 8px;
+}
+#photo1 .text a{
+    font-size: 21.5px;
+    padding: 0px 22px;
+    color: rgb(0, 183, 255) ;
+    
+}
+#photo2{
+    width: 100%;
+    height: 90%;
+    /* background-color: aqua; */
+    background-image: url(https://www.apple.com/v/home/az/images/heroes/iphone-14/hero_iphone14_yellow__eun20sn4imi6_largetall.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    cursor: pointer;
+}
+#photo2 .text2{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    font-family: "gilroy";
+    /* font-weight: 900; */
+    top: 45px;
+    transform: translate(-50%,0%);
+}
+#photo2 .text2 h1{
+    font-size: 58px;
+    padding: 5px 0px;
+}
+#photo2 .text2 h2{
+    font-weight: 500;
+    font-size: 28px;
+    padding-bottom: 8px;
+}
+#photo2 .text2 a{
+    font-size: 21.5px;
+    padding: 0px 22px;
+    color: rgb(49, 49, 236) ;
+    
+}
+#photo3{
+    width: 100%;
+    height: 87.5%;
+    background-image: url(https://www.apple.com/v/home/az/images/heroes/apple-watch-series-8/hero_apple_watch_series_8_spring__b1y8wb7xjc9y_largetall.jpg);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    color: aliceblue;
+    font-family: "gilroy";
+    position: relative;
+}
+#photo3 .text3{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    font-family: "gilroy";
+    /* font-weight: 900; */
+    top: 45px;
+    transform: translate(-50%,0%);
+
+}
+#photo3 .text3 h1{
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+#photo3 .text3 h4{
+    color: brown;
+    letter-spacing: 3px;
+    padding: 5px 0px;
+}
+#photo3 .text3 h2{
+    font-size: 30px;
+    font-weight:300;
+    padding: 12px 0px;
+}
+#photo3 .text3 a{
+    font-size: 21.5px;
+    padding: 0px 22px;
+    color: rgb(0, 183, 255) ;
+    
+}
+#halfphoto{
+    width: 100%;
+    height: 75%;
+    display: flex;
+}
+#halfphoto #photo4{
+  width: 50%;
+  height: 100%;
+  margin: 10px;
+  background-image: url(https://www.apple.com/v/home/az/images/promos/iphone-tradein/iphone_tradein_promo__d5au3rkw5kuq_large.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  text-align: center;
+  font-family: "gilroy";
+  cursor: pointer;
+
+}
+#halfphoto #photo4 .text4{
+    position: absolute;
+    top: 28px;
+     left: 50%;
+     transform: translate(-50%,0%);
+}
+#halfphoto #photo4 h1{
+     padding: 8px 0px;
+    font-size: 35px;
+}
+#halfphoto #photo4 h4{
+    padding: 10px 0px;
+    font-size: 23px;
+    font-weight: 500;
+}
+#halfphoto #photo4 a{
+    font-size: 18px;
+    padding: 0px 22px;
+    color: rgb(49, 49, 236) ;
+    font-weight: 500;
+}
+#halfphoto #photo5{
+   width: 50%;
+   height:100% ;
+   margin: 10px;
+   background-image: url(https://www.apple.com/v/home/az/images/promos/wwdc23-announce/promo_wwdc23__b68ptht3mro2_large.jpg);
+   background-size: cover;
+   background-position: center;
+   position: relative;   
+   color: aliceblue;
+   font-family: "gilroy";
+   text-align: center;
+   cursor: pointer;
+}
+#halfphoto #photo5 .text5{
+    position: absolute;
+    bottom: 38px;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+#halfphoto #photo5 .text5 h1{
+    padding: 8px 0px;
+    font-size: 35px;
+}
+#halfphoto #photo5 .text5 h4{
+    padding: 10px 0px;
+    font-size: 15px;
+    font-weight: 500;
+}
+#halfphoto #photo5 .text5 a{
+    font-size: 18px;
+    padding: 0px 22px;
+    font-weight: 500;
+    color: rgb(0, 183, 255) ;
+}
+#halfphoto2{
+    width: 100%;
+    height: 75%;
+    display: flex;
+}
+#halfphoto2 #photo6{
+    width: 50%;
+    height: 100%;
+    margin: 20px 10px;
+    background-image: url(https://www.apple.com/v/home/az/images/promos/ipad/promo_ipad__fioegapg12qi_large.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    font-family: "gilroy";
+    cursor: pointer;
+   
+}
+#halfphoto2 #photo6 .text6{
+    position: absolute;
+    top: 28px;
+     left: 50%;
+     transform: translate(-50%,0%);
+}
+#halfphoto2 #photo6 .text6 h1{
+    padding: 8px 0px;
+    font-size: 35px;
+}
+#halfphoto2 #photo6 .text6 h4{
+    padding: 10px 0px;
+    font-size: 22px;
+    font-weight: 500;
+}
+#halfphoto2 #photo6 .text6 a{
+    font-size: 17px;
+    padding: 0px 22px;
+    font-weight: 500;
+    color: rgb(49, 49, 236) ;
+}
+#halfphoto2 #photo7{
+    width: 50%;
+    height: 100%;
+    margin: 20px 10px;
+    background-image: url(https://www.apple.com/v/home/az/images/promos/apple-small-business/promo__sw58lbodkmqq_large.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: whitesmoke;
+    text-align: center;
+    font-family: "gilroy";
+    cursor: pointer;
+}
+#halfphoto2 #photo7 .text7{
+    position: absolute;
+    top: 28px;
+     left: 50%;
+     transform: translate(-50%,0%);
+}
+#halfphoto2 #photo7 .text7 h1{
+    padding: 8px 0px;
+    font-size: 35px;
+}
+#halfphoto2 #photo7 .text7 h4{
+    padding: 10px 0px;
+    font-size: 22px;
+    font-weight: 500;
+}
+#halfphoto2 #photo7 .text7 a{
+    font-size: 18px;
+    padding: 0px 22px;
+    font-weight: 500;
+    color: rgb(0, 183, 255) ;
+}
+#halfphoto3{
+    width: 100%;
+    height: 75%;
+    margin-bottom: 32px;
+    display: flex;
+}
+#halfphoto3 #photo8{
+    width: 50%;
+    height: 100%;
+    margin: 30px 10px;
+    background-image: url(https://www.apple.com/v/home/az/images/promos/mothers-day-2023/iphone/promo__sw58lbodkmqq_large.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    font-family: "gilroy";   
+    cursor: pointer;
+}
+#halfphoto3 #photo8 .text8{
+    position: absolute;
+    top: 28px;
+     left: 50%;
+     transform: translate(-50%,0%);
+}
+#halfphoto3 #photo8 .text8 h1{
+    padding: 8px 0px;
+    font-size: 40px;
+}
+#halfphoto3 #photo8 .text8 h4{
+    padding: 10px 0px;
+    font-size: 22px;
+    font-weight: 500;
+}
+#halfphoto3 #photo8 .text8 a{
+    font-size: 17px;
+    padding: 0px 22px;
+    font-weight: 500;
+    color: rgb(49, 49, 236) ;
+}
+#halfphoto3 #photo9{
+    width: 50%;
+    height: 100%;
+    margin: 30px 10px;
+    background-image: url(https://www.apple.com/v/home/az/images/promos/apple-card/tile__cauwwcyyn9hy_large.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    font-family: "gilroy";   
+    cursor: pointer;
+}
+#halfphoto3 #photo9 .text9{
+    position: absolute;
+    top: 28px;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+#halfphoto3 #photo9 .text9 h1{
+    padding: 8px 0px;
+    font-size: 40px;
+}
+#halfphoto3 #photo9 .text9 h4{
+    padding: 10px 0px;
+    font-size: 22px;
+    font-weight: 500;
+}
+#halfphoto3 #photo9 .text9 a{
+    font-size: 17px;
+    padding: 0px 22px;
+    font-weight: 500;
+    color: rgb(49, 49, 236) ;
+}
+#footer1{
+    margin-top: 5px;
+    width: 100%;
+    height: 115%;
+    background-color: rgba(228, 230, 230, 0.56);
+    position: relative;
+}
+#footer1 #information{
+    width: 65%;
+    height:36%;
+    /* background-color: aquamarine; */
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+#footer1 #information p{
+    font-size: 13px;
+    font-family: "gilroy";
+    padding:4px 0px;
+    line-height: 17px;
+    font-weight: 500;
+    color: rgb(49, 49, 49);
+}
+#footer1 #information p span{
+    text-decoration: underline;
+    font-weight: 600;
+    cursor: pointer;
+}
+#column{
+    width: 65%;
+    height: 46%;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    font-family: "gilroy";
+    font-weight: 500;
+    display: flex;
+    gap: 60px;
+}
+#column #column1{
+    width: 15%;
+    height: 100%;
+    font-size: 14px;
+}
+#column #column1 a{
+    display: block;
+   /* margin: 6px 0px; */
+   padding: 4.5px 0px;
+   font-size: 13px;
+   color: rgb(33, 33, 33);
+   
+}
+#column #column1 h4{
+    /* margin: 6px 0px; */
+    padding: 4.5px 0px;
+}
+#column #column2{
+    width: 15%;
+    height: 100%;
+    font-size: 14px;
+}
+#column #column2 a{
+    display: block;
+    padding: 4.5px 0px;
+   font-size: 13px;
+   color: rgb(33, 33, 33);
+
+}
+#column #column2 h4{
+    /* margin: 6px 0px; */
+    padding: 4.5px 0px;
+}
+#column #column3{
+    width: 15%;
+    height: 100%;
+    font-size: 14px;
+}
+#column #column3 a{
+    display: block;
+    padding: 4.5px 0px;
+   font-size: 13px;
+   color: rgb(33, 33, 33);
+
+}
+#column #column3 h4{
+    /* margin: 6px 0px; */
+    padding: 4.5px 0px;
+}
+#column #column4{
+    width: 15%;
+    height: 100%;
+    font-size: 14px;
+}
+#column #column4 a{
+    display: block;
+    padding: 4.5px 0px;
+   font-size: 13px;
+   color: rgb(33, 33, 33);
+
+}
+#column #column4 h4{
+    /* margin: 6px 0px; */
+    padding: 4.5px 0px;
+}
+#column #column5{
+    width: 15%;
+    height: 100%;
+    font-size: 14px;
+}
+#column #column5 a{
+    display: block;
+    padding: 4.5px 0px;
+   font-size: 13px;
+   color: rgb(33, 33, 33);
+    
+}
+#column #column5 h4{
+    /* margin: 6px 0px; */
+    padding: 4.5px 0px;
+}
+#footer1 #information2{
+    width: 65%;
+    height:20px;
+    /* background-color: aquamarine; */
+    position: absolute;
+    bottom: 78px;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+#footer1 #information2 p{
+    font-size: 14px;
+    font-family: "gilroy";
+    color: rgb(70, 70, 70);
+}
+#footer1 #information2 p a{
+    font-size: 15px;
+    text-decoration: underline;
+    font-weight: 500;
+}
+#footer1 #information2 #prentfooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 0px;
+    font-family: "gilroy";
+}
+#footer1 #information2 #prentfooter a{
+    color: rgb(44, 43, 43);
+    font-size: 13px;
+    font-weight: 550;
+}
+#footer1 #information2 #prentfooter p{
+    font-size: 13px;
+    font-weight: 500;
+}
+#footer1 #information2 #prentfooter #mainfooter a{
+       margin: 0px 6px;
+}
+#vdo{
+    width:100%;
+    /* white-space: nowrap; */
+    height: 85%;
+    /* background-color: #0c0c0c; */
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    /* overflow: auto; */
+}
+#video{
+    width: 80%;
+    height: 95%;
+    /* white-space: nowrap; */
+    background-image: url(https://is1-ssl.mzstatic.com/image/thumb/qL-yBoKCFztx-kDyvIXlHw/1250x703.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(207, 209, 211);
+    position: relative;
+}
+#video button{
+   padding: 12px 35px;
+   border-radius: 100px;
+   border: none;
+   color: black;
+   font-family: "gilroy";
+   font-weight: 700;
+   font-size: 15px;
+   position: absolute;
+   bottom: 50px;
+   left: 50px;
+}
+#video p{
+    color: rgb(248, 244, 244);
+    position: absolute;
+    bottom: 60px;
+    left: 250px;
+    font-family: "gilroy";
+    font-size: 18px;
+    font-weight: 600;
+}
+#video p span{
+    font-size: 22px;
+    font-weight: 700;
+}
+
